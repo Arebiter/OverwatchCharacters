@@ -29,12 +29,14 @@ body{
     color: white;
     padding: 1px auto;
     max-width: 100%;
+    margin:auto;
 }
 
 .name{
     max-width: 90%;
     overflow: hidden;
     white-space: nowrap;
+    margin: auto;
 }
 
 .portrait{
@@ -43,12 +45,12 @@ body{
 
 /* modal things */
 
-.modal{    
+.modal{  
+    transform: scale(0);
     position: fixed;
     z-index: 2;
     top: 15%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    margin: auto;
     width: 100%;
     max-width: 800px;    
     height: 100%;
@@ -57,6 +59,10 @@ body{
     border: 3px solid lightblue;
     border-radius: 5px;
     background-color: gray;
+}
+.modal.active{
+    transform: scale(1);
+    transition: scale 0.5s linear;
 }
 .modal-header{
     display: flex;

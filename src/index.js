@@ -18,7 +18,6 @@ async function getHeroList() {
     const heroListArray = await response.json();
     const heroes = await heroPage(heroListArray);
     const heroGrid = document.querySelector("#hero-grid");
-    console.log(heroGrid);
     new HeroModal(heroGrid);
 }
 
