@@ -488,7 +488,6 @@ body{
 }
 .modal.active{
     transform: scale(1);
-    transition: scale 0.5s linear;
 }
 .modal-header{
     display: flex;

@@ -5,9 +5,7 @@ class HeroModal {
         this.fetchHeroInfo = this.fetchHeroInfo.bind(this);
         this.fillModal = this.fillModal.bind(this);
         this.presentModal = this.presentModal.bind(this);
-        // this.presentModal = this.presentModal.bind(this);
         this.closeModal();
-        this.clickModalAnywhere();
     }
 
     getHeroID(ele) {
@@ -27,6 +25,34 @@ class HeroModal {
     }
 
     fillModal(hero) {
+        const modalElement = document.querySelector(".modal")
+        let html = `
+        <div class="modal-header">
+            <div class="title">${hero.name}</div>
+            <button class="modal-close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="hero-basics">
+                <div class="hero-profile-img"><img src="#hero-img"></div>
+                <div class="hero-basic-info">${hero.name}</div>
+                <div class="hero-basic-info">${hero.role}</div>
+                <div class="hero-catchphrase">${hero.story.catchPhrase}</div>
+            </div>
+            <div class="hero-bio">
+                <div class="hero-bio-info">${hero.story.biography.age}</div>
+                <div class="hero-bio-info">${hero.story.biography.occupation}</div>
+                <div class="hero-bio-info">${hero.story.biography.baseOfOperations}</div>
+                <div class="affiliations">${hero.story.biography.affiliation}</div>
+                <div class="backstory">${hero.story.backStory}</div>
+            </div>
+            <div class="hero-difficulty">
+                <div class="difficulty">${hero.difficulty}</div>
+            </div>
+        </div>
+        `;
+        modalElement.innerHTML = html;
+
+        //iterate through image files for the hero, append them to the modal-body
 
         this.presentModal();
         //set up modal structure with fetched information
@@ -39,20 +65,15 @@ class HeroModal {
     }
 
     closeModal() {
-        const closeBtn = document.querySelector(".modal-close-btn")
-        closeBtn.addEventListener("click", () => {
-            document.querySelector(".modal").classList.remove("active");
-            document.querySelector(".modal-background").classList.remove("active");
-        });
-    }
-
-    clickModalAnywhere() {
+        const modal = document.querySelector(".modal");
         const overlay = document.querySelector(".modal-background");
-        overlay.addEventListener("click", event => {
-            if (event.target === overlay) {
+        const closeBtn = document.querySelector(".modal-close-btn")
+        document.addEventListener("click", event => {
+            if (event.target === closeBtn || event.target === overlay) {
                 document.querySelector(".modal").classList.remove("active");
                 document.querySelector(".modal-background").classList.remove("active");
-            };
+                while (modal.firstChild) modal.removeChild(modal.lastChild); //because you'll have appended something in fillModal
+            }
         });
     }
 }
@@ -73,3 +94,10 @@ export default HeroModal;
 // ability icons 
 // fullbody image
 // -->
+
+// <div class="hero-ability-icons">
+// abilities - 3-4 icons
+// </div>
+// <div class="hero-image">
+// full image - 1 large image
+// </div>
