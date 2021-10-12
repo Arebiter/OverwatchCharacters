@@ -756,33 +756,39 @@ class GetImages {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "The Reaping",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reaper/Ability-reaper5.png",
+                        "description": "Reaper steals health from his enemies as he damages them."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Hellfire Shotguns",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reaper/Reaper_ability_icon_0.png",
+                        "description": "Reaper tears enemies apart with twin shotguns."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Wraith Form",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reaper/Reaper_ability_icon_1.png",
+                        "description": "Reaper becomes a shadow for a short period of time. While in this form, he takes no damage and is able to pass through enemies, but cannot fire his weapons or use other abilities."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "name": "Shadow Step",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reaper/Reaper_ability_icon_2.png",
+                        "description": "After marking a destination, Reaper disappears and reappears at that location."
+                    },
+                    {
+                        "id": 5,
+                        "name": "Death Blossom",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reaper/Reaper_ability_icon_3.png",
+                        "description": "In a blur of motion, Reaper empties both Hellfire Shotguns at breakneck speed, dealing massive damage to all nearby enemies."
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/reaper/Icon-Reaper.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/reaper/Reaper-portrait.png"
                 }
             },
             "reinhardt": {
@@ -790,7 +796,7 @@ class GetImages {
                     {
                         "id": 1,
                         "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/lucio/128px-Lucio_ability_icon_5.png",
                         "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
                     },
                     {
