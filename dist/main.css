@@ -425,38 +425,67 @@ th {
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/heroPage.css ***!
   \*******************************************************************************************************/
 body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/background.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Bebas Neue', cursive;
+}
+
+.grid-head{
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 100px;
+    color: rgba(226, 226, 226, 0.89);
+}
+
+.content-container{
     width: 1000px;
+    height: 100%;
+    max-height: 550px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 130px;
 }
 /* grid view */
 #hero-grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-height: 550px;
 }
 
 #hero-grid > li{
     display: flex;
     width: 80px;
-    background-color: gray;
+    background-color: #e3e2e7;
     font-size: 20;
     margin: 2px;
-    border: 3px solid lightblue;
-    border-radius: 10px;
+    border: 3px solid #e3e2e7;
+    border-radius: 5px;
     flex-direction: column;
     align-items: center;
+    transform: matrix(1, 0, -0.15, 1, 0, 0);
+    
+    
 }
 #hero-grid > li:hover{
-    transform: scale(1.1);
+    transform: matrix(1.1, 0, -0.16, 1.1, 0, 0);
+    border-color: #FFFE95;
+    z-index: 2;
+    filter: drop-shadow(7px 5px 2px rgba(46, 46, 47, 0.411));
 }
 
 .role{
-    background-color: darkgray;
+    background-color: #a5a4a8;
     color: white;
-    padding: 1px auto;
+    padding-top: 2px;
     max-width: 100%;
-    margin:auto;
+    margin: auto 100%;
 }
 
 .name{
@@ -464,10 +493,13 @@ body{
     overflow: hidden;
     white-space: nowrap;
     margin: auto;
+    padding-top: 3px;
+    color: #28354F;
 }
 
 .portrait{
     width: 100%;
+    
 }
 
 /* modal things */
@@ -476,8 +508,8 @@ body{
     transform: scale(0);
     position: fixed;
     z-index: 2;
-    top: 15%;
-    margin: auto;
+    top: 10%;
+    margin: 0px 100px;
     width: 100%;
     max-width: 800px;    
     height: 100%;
@@ -498,11 +530,11 @@ body{
     align-items: center;
 }
 
-.modal-header .title{
-    position: fixed;
-}
 .modal-body{
     padding: 5px;
+    position: fixed;
+    display: flex;
+    
 }
 .modal-background{
     display: none;
@@ -545,6 +577,7 @@ body{
 
 .hero-ability{
     display:flex;
+
 }
 
 .hero-ability-div{
@@ -552,7 +585,7 @@ body{
     flex-direction: column;
 }
 
-.hero-ability .portrait{
+.hero-ability img{
     height: auto;
     max-width: 100px;
     width: auto;
@@ -561,6 +594,14 @@ body{
     border-radius: 50px;
 }
 
+
+.hero-full{
+    position: sticky;
+    max-width: 300px;
+    max-height: 550px;
+    top: 5%;
+    left: 60%;
+}
 
 
 

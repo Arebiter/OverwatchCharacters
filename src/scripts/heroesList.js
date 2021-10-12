@@ -42,7 +42,7 @@ class HeroList {
 
             const name = document.createElement("div");
             name.setAttribute("class", "name");
-            name.innerText = `${heroes[i].name}`;
+            name.innerText = `${heroes[i].name.toUpperCase()}`;
 
             const role = document.createElement("div");
             role.setAttribute("class", "role");

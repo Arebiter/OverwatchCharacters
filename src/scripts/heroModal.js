@@ -35,28 +35,34 @@ class HeroModal {
             <button class="modal-close-btn">&times;</button>
         </div>
         <div class="modal-body">
-            <div class="hero-top">
-                <div class="hero-profile-img"><img src="${heroObj.portraits.icon}"></div>
-                <div class="hero-basics">
-                    <div class="hero-basic-info">${hero.name}</div>
-                    <div class="hero-basic-info">${hero.role}</div>
+            <div class="body-left">
+                <div class="hero-top">
+                    <div class="hero-profile-img"><img src="${heroObj.portraits.icon}"></div>
+                    <div class="hero-basics">
+                        <div class="hero-basic-info">NAME: ${hero.name}</div>
+                        <div class="hero-basic-info">ROLE: ${hero.role}</div>
+                    </div>
+                    <div class="hero-bio">
+                        <div class="hero-bio-info">AGE: ${hero.story.biography.age}</div>
+                        <div class="hero-bio-info">OCCUPATION: ${hero.story.biography.occupation}</div>
+                        <div class="hero-bio-info">BASE: ${hero.story.biography.baseOfOperations}</div>
+                        <div class="affiliations">AFFILIATION: ${hero.story.biography.affiliation}</div>
+                    </div>
                 </div>
-                <div class="hero-bio">
-                    <div class="hero-bio-info">${hero.story.biography.age}</div>
-                    <div class="hero-bio-info">${hero.story.biography.occupation}</div>
-                    <div class="hero-bio-info">${hero.story.biography.baseOfOperations}</div>
-                    <div class="affiliations">${hero.story.biography.affiliation}</div>
-                </div>
-            </div>
-            <div class="hero-catchphrase">${hero.story.catchPhrase}</div>
-            <div class="backstory">${hero.story.backStory}</div>
-            <div class="hero-difficulty">
-                <div class="difficulty">${hero.difficulty}</div>
-            </div>
-            <ul class="hero-abilities">
+                <div class="hero-catchphrase">${hero.story.catchPhrase}</div>
+                <div class="backstory">${hero.story.backStory}</div>
+                <br>
+                <div>ABILITIES</div>
+                <ul class="hero-abilities">
 
-            </ul>
-            <img src="${heroObj.portraits.full}">
+                </ul>
+            </div>
+            <div class="body-right">
+                <div class="hero-difficulty">
+                    <div class="difficulty">DIFFICULTY: ${hero.difficulty}</div>
+                </div>
+                <img class="hero-full" src="${heroObj.portraits.full}">
+            </div>
         </div>
         `;
         modalElement.innerHTML = html;
@@ -79,7 +85,7 @@ class HeroModal {
             description.innerText = `${heroObj.abilities[i].description}`;
 
             const abilityIcon = document.createElement("img");
-            abilityIcon.setAttribute("class", "portrait");
+            abilityIcon.setAttribute("class", "ability-img");
             abilityIcon.setAttribute("src", `${heroObj.abilities[i].image}`);
 
             abilityDiv.append(name, description)
@@ -87,8 +93,8 @@ class HeroModal {
             ul.append(li);
         }
 
-        const modalbody = document.querySelector(".modal-body")
-        modalbody.append(ul);
+        const bodyleft = document.querySelector(".body-left")
+        bodyleft.append(ul);
 
         this.presentModal();
         //set up modal structure with fetched information
