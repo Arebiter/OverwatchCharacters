@@ -795,225 +795,261 @@ class GetImages {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/lucio/128px-Lucio_ability_icon_5.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Steadfast",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reinhardt/Passive-Reinhardt.png",
+                        "description": "Resistant to knock back effects."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Rocket Hammer",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reinhardt/rein_ab_0.png",
+                        "description": "Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Barrier Field",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reinhardt/rein_ab_1.png",
+                        "description": "Reinhardt projects a broad, forward-facing energy shield, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the shield, he cannot attack while sustaining it."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "name": "Charge",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reinhardt/Reinhardt_ability_icon_2.png",
+                        "description": "Reinhardt charges forth in a straight line, grabbing hold of enemies in his path. If he collides with a wall, foes he’s carrying suffer extreme damage."
+                    },
+                    {
+                        "id": 5,
+                        "name": "Fire Strike",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reinhardt/rein_ab_4.png",
+                        "description": "By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches."
+                    },
+                    {
+                        "id": 6,
+                        "name": "Earthshatter",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/reinhardt/Reinhardt_ability_icon_4.png",
+                        "description": "Reinhardt forcefully slams his rocket hammer into the ground, knocking down and damaging all enemies in front of him."
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/reinhardt/164.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/reinhardt/1000.png"
                 }
             },
             "roadhog": {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Scrap Gun",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/roadhog/Roadhog_ability_icon_0.png",
+                        "description": "Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread. Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Take a Breather",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/roadhog/Roadhog_ability_icon_1.png",
+                        "description": "Roadhog restores a chunk of his health over a brief period of time."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Chain Hook",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/roadhog/Roadhog_ability_icon_2.png",
+                        "description": "Roadhog hurls his chain at a target; if it catches, he yanks them into close range."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "name": "Whole Hog",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/roadhog/Roadhog_ability_icon_3.png",
+                        "description": "After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies."
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/roadhog/164.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/roadhog/1000.png"
                 }
             },
             "sigma": {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Hyperspheres",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sigma/128px-Sigma-ability1.png",
+                        "description": "Sigma launches two gravitic charges, which bounce off walls and implode after a short duration, damaging enemies within a sizable radius."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Experimental Barrier",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sigma/128px-Sigma-ability2.png",
+                        "description": "Sigma propels a floating barrier to a location of his choosing. He can retrieve the barrier at any time."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Kinetic Grasp",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sigma/128px-Sigma-ability3.png",
+                        "description": "Sigma freezes incoming projectiles in midair, converting them into shields."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "name": "Accretion",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sigma/128px-Sigma-ability4.png",
+                        "description": "Sigma gathers a mass of debris and flings it at an enemy to knock them down."
+                    },
+                    {
+                        "id": 5,
+                        "name": "Gravitic Flux",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sigma/128px-Sigma-ability5.png",
+                        "description": "Unleashing his full powers, Sigma takes flight, lifts enemies in a targeted area, and launches them into the sky before slamming them back down."
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/sigma/Sigma_mini_portrait.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/sigma/444.png"
                 }
             },
             "soldier-76": {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Heavy Pulse Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/soldier-76/Soldier-76_ability_icon_0.png",
+                        "description": "Soldier: 76’s rifle remains particularly steady while unloading fully-automatic pulse fire."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Helix Rocketst",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/soldier-76/Soldier-76_ability_icon_1.png",
+                        "description": "Tiny rockets spiral out of Soldier: 76’s Pulse Rifle in a single burst. The rockets’ explosion damages enemies in a small radius."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Sprint",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/soldier-76/Soldier-76_ability_icon_2.png",
+                        "description": "Whether he needs to evade a firefight or get back into one, Soldier: 76 can rush ahead in a burst of speed. His sprint ends if he takes an action other than charging forward."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "name": "Biotic Field",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/soldier-76/Soldier-76_ability_icon_3.png",
+                        "description": "Soldier: 76 plants a biotic emitter on the ground. Its energy projection restores health to 76 and any of his squadmates within the field."
+                    },
+                    {
+                        "id": 5,
+                        "name": "Tactical Visor",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/soldier-76/128px-Soldier-76_ability_icon_4.png",
+                        "description": "Soldier: 76’s pinpoint targeting visor “locks” his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target."
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/soldier-76/soldier_icon.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/soldier-76/Soldier76-portrait.png"
                 }
             },
             "sombra": {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Opportunist",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sombra/Ability_Sombra_Opportunist.png",
+                        "description": "Sombra detects critically injured enemies through walls."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Machine Pistol",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sombra/128px-Sombra_ability_icon_0.png",
+                        "description": "Sombra’s fully-automatic machine pistol fires in a short-range spread."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Hack",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sombra/Sombra_ability_icon_1.png",
+                        "description": "Sombra hacks enemies to temporarily stop them from using their abilities, or hacks first aid kits to make them useless to her opponents."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "name": "Stealth",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sombra/Sombra_ability_icon_2.png",
+                        "description": "Sombra becomes invisible for a short period of time, during which her speed is boosted considerably. Attacking, using offensive abilities, or taking damage disables her camouflage."
+                    },
+                    {
+                        "id": 5,
+                        "name": "Translocator",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sombra/Sombra_ability_icon_3.png",
+                        "description": "Sombra tosses out a translocator beacon. She can instantly return to the beacon’s location while it is active (including when it’s in mid-flight)."
+                    },
+                    {
+                        "id": 6,
+                        "name": "EMP",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/sombra/Sombra_ability_icon_4.png",
+                        "description": "Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields and hacking all opponents caught in the blast."
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/sombra/Icon-Sombra.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/sombra/Sombra-portrait.png"
                 }
             },
             "symmetra": {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Photon Projector",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/symmetra/Symmetra_ability_icon_0.png",
+                        "description": "Symmetra’s weapon emits a ranged beam. It deals continuous damage that increases the longer it is connected. The projector can also release an explosive energy ball that deals high damage on contact."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Sentry Turret",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/symmetra/Symmetra_ability_icon_1.png",
+                        "description": "Symmetra launches a small turret that automatically fires speed-reducing blasts at the nearest enemy within range. Up to three turrets can be built on the battlefield at once."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Teleporter",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/symmetra/Symmetra_ability_icon_3.png",
+                        "description": "Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
+                        "name": "Photon Barrier",
                         "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "description": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/symmetra/Photon_Barrier.png"
                     }
 
                 ],
                 portraits: {
-                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
-                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/symmetra/Icon-Symmetra.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/symmetra/Symmetra-portrait.png"
                 }
             },
             "torbjorn": {
                 abilities: [
                     {
                         "id": 1,
-                        "name": "Biotic Rifle",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
-                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                        "name": "Rivet Gun",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/torbjorn/Torbjorn_ability_icon_0.png",
+                        "description": "Torbjörn fires rivets at long range. Torbjörn ejects molten metal from his gun in a short, close-range burst."
                     },
                     {
                         "id": 2,
-                        "name": "Sleep Dart",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
-                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                        "name": "Forge Hammer",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/torbjorn/Torbjorn_ability_icon_1.png",
+                        "description": "This multipurpose hammer repairs turrets and, in a pinch, can also be used as a weapon."
                     },
                     {
                         "id": 3,
-                        "name": "Biotic Grenade",
-                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
-                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                        "name": "Deploy Turret",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/torbjorn/Torbjorn_ability_icon_6.png",
+                        "description": "Torbjörn deploys a self-building turret which automatically tracks and attacks enemies."
                     },
                     {
                         "id": 4,
-                        "name": "Nano Boost",
+                        "name": "Overload",
                         "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
-                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                        "description": "Torbjörn gains additional armor as well as improved attack, movement, and reload speed for a brief period."
                     }
 
                 ],
