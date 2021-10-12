@@ -23,12 +23,11 @@ class HeroModal {
     async fetchHeroInfo(id) {
         const response = await fetch(`https://overwatch-api.tekrop.fr/hero/${id}`);
         const heroInfoObject = await response.json();
-        console.log(id);
-        const heroImages = new GetImages(id).ImageArrays;
-        this.fillModal(heroInfoObject, heroImages);
+        const heroImages = new GetImages().imagesArray;
+        this.fillModal(heroInfoObject, heroImages[id]);
     }
 
-    fillModal(hero, images) {
+    fillModal(hero, heroObj) {
         const modalElement = document.querySelector(".modal")
         let html = `
         <div class="modal-header">
@@ -37,7 +36,7 @@ class HeroModal {
         </div>
         <div class="modal-body">
             <div class="hero-basics">
-                <div class="hero-profile-img"><img src="${images.portraits[0]}"></div>
+                <div class="hero-profile-img"><img src="${heroObj.portraits.icon}"></div>
                 <div class="hero-basic-info">${hero.name}</div>
                 <div class="hero-basic-info">${hero.role}</div>
                 <div class="hero-catchphrase">${hero.story.catchPhrase}</div>
@@ -52,12 +51,38 @@ class HeroModal {
             <div class="hero-difficulty">
                 <div class="difficulty">${hero.difficulty}</div>
             </div>
+            <ul class="hero-abilities">
+
+            </ul>
+            <img src="${heroObj.portraits.full}">
         </div>
         `;
         modalElement.innerHTML = html;
-
+        const ul = document.querySelector(".hero-abilities")
+        while (ul.firstChild) ul.removeChild(ul.lastChild);
         //iterate through image files for the hero, append them to the modal-body
-        // this.getAbilities();
+        for (let i = 0; i < heroObj.abilities.length; i++) {
+            const li = document.createElement("li");
+            li.setAttribute("class", "hero-ability");
+
+            const name = document.createElement("div");
+            name.setAttribute("class", "hero-ability-name");
+            name.innerText = `${heroObj.abilities[i].name}`;
+
+            const description = document.createElement("div");
+            description.setAttribute("class", "hero-ability-description");
+            description.innerText = `${heroObj.abilities[i].description}`;
+
+            const abilityIcon = document.createElement("img");
+            abilityIcon.setAttribute("class", "portrait");
+            abilityIcon.setAttribute("src", `${heroObj.abilities[i].image}`);
+
+            li.append(abilityIcon, name, description);
+            ul.append(li);
+        }
+
+        const modalbody = document.querySelector(".modal-body")
+        modalbody.append(ul);
 
         this.presentModal();
         //set up modal structure with fetched information

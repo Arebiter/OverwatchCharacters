@@ -1,286 +1,1060 @@
 class GetImages {
-    constructor(name) {
-        this.name = name;
+    constructor() {
         this.imagesArray = {
             "ana": {
                 abilities: [
                     {
                         "id": 1,
                         "name": "Biotic Rifle",
-                        "image": ,
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
                         "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
                     },
                     {
                         "id": 2,
                         "name": "Sleep Dart",
-                        "image": ,
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
                         "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
                     },
                     {
                         "id": 3,
                         "name": "Biotic Grenade",
-                        "image": ,
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
                         "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
                     },
                     {
                         "id": 4,
                         "name": "Nano Boost",
-                        "image": ,
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
                         "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
                     }
 
                 ],
                 portraits: {
-                    "icon": ,
-                    "full": 
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "ashe": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "baptiste": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "bastion": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "brigitte": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "dva": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "doomfist": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "echo": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "genji": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "hanzo": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "junkrat": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "lucio": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "mccree": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "mei": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "mercy": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "moira": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "orisa": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "pharah": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "reaper": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "reinhardt": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "roadhog": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "sigma": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "soldier-76": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "sombra": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "symmetra": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "torbjorn": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "tracer": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "widowmaker": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "winston": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "wrecking-ball": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "zarya": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
             "zenyatta": {
-                abilities: {
+                abilities: [
+                    {
+                        "id": 1,
+                        "name": "Biotic Rifle",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana1.png",
+                        "description": "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Sleep Dart",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana2.png",
+                        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Biotic Grenade",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana3.png",
+                        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+                    },
+                    {
+                        "id": 4,
+                        "name": "Nano Boost",
+                        "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/ana/Ability-ana4.png",
+                        "description": "After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies’ attacks."
+                    }
 
-                },
+                ],
                 portraits: {
-
+                    "icon": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Icon-Ana.png",
+                    "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/ana/Ana.png"
                 }
             },
 
