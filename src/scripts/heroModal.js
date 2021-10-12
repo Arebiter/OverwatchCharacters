@@ -1,3 +1,5 @@
+import GetImages from "./heroImages";
+
 class HeroModal {
     constructor(el) {
         this.el = el;
@@ -21,10 +23,12 @@ class HeroModal {
     async fetchHeroInfo(id) {
         const response = await fetch(`https://overwatch-api.tekrop.fr/hero/${id}`);
         const heroInfoObject = await response.json();
-        this.fillModal(heroInfoObject);
+        console.log(id);
+        const heroImages = new GetImages(id).ImageArrays;
+        this.fillModal(heroInfoObject, heroImages);
     }
 
-    fillModal(hero) {
+    fillModal(hero, images) {
         const modalElement = document.querySelector(".modal")
         let html = `
         <div class="modal-header">
@@ -33,7 +37,7 @@ class HeroModal {
         </div>
         <div class="modal-body">
             <div class="hero-basics">
-                <div class="hero-profile-img"><img src="#hero-img"></div>
+                <div class="hero-profile-img"><img src="${images.portraits[0]}"></div>
                 <div class="hero-basic-info">${hero.name}</div>
                 <div class="hero-basic-info">${hero.role}</div>
                 <div class="hero-catchphrase">${hero.story.catchPhrase}</div>
@@ -53,6 +57,7 @@ class HeroModal {
         modalElement.innerHTML = html;
 
         //iterate through image files for the hero, append them to the modal-body
+        // this.getAbilities();
 
         this.presentModal();
         //set up modal structure with fetched information
