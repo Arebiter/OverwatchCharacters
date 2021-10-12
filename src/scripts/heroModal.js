@@ -110,24 +110,3 @@ class HeroModal {
 
 export default HeroModal;
 
-// <!--face, name, role, 
-// story:catchphrase,
-
-// story:biography:age,
-// story:biography:occupation,
-// story:biologrphy:baseOfOperations,
-// story:biography:affiliation,
-// story:backstory
-
-// difficulty                
-
-// ability icons 
-// fullbody image
-// -->
-
-// <div class="hero-ability-icons">
-// abilities - 3-4 icons
-// </div>
-// <div class="hero-image">
-// full image - 1 large image
-// </div>
