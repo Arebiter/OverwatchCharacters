@@ -427,6 +427,7 @@ th {
 body{
     width: 1000px;
     margin: auto;
+    margin-top: 50px;
 }
 /* grid view */
 #hero-grid{
@@ -496,6 +497,10 @@ body{
     padding: 10px;
     align-items: center;
 }
+
+.modal-header .title{
+    position: fixed;
+}
 .modal-body{
     padding: 5px;
 }
@@ -516,6 +521,47 @@ body{
 .modal-close-btn{
     font-size: 20px;
 }
+
+
+/*hero - modal information*/
+.hero-top{
+    display: flex;
+}
+.hero-basics{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-profile-img{
+    max-width: 150px;
+    width: auto;
+    max-height: 150px;
+}
+
+.hero-abilities{
+    display:flex;
+    flex-direction: column;
+}
+
+.hero-ability{
+    display:flex;
+}
+
+.hero-ability-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-ability .portrait{
+    height: auto;
+    max-width: 100px;
+    width: auto;
+    padding: 15px;
+    border: 2px solid lightblue;
+    border-radius: 50px;
+}
+
+
 
 
 
