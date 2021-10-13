@@ -97,6 +97,18 @@ class HeroModal {
         const bodyleft = document.querySelector(".body-left")
         bodyleft.append(ul);
 
+        const heroBasics = document.querySelector(".hero-basics")
+        const roleIcon = document.createElement("img");
+        roleIcon.setAttribute("class", "role-icon");
+        console.log(hero.role);
+        if (hero.role === "Support") {
+            roleIcon.setAttribute("src", "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/icons/flip-support-large.png");
+        } else if (hero.role === "Tank") {
+            roleIcon.setAttribute("src", "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/icons/tank_2.png");
+        } else {
+            roleIcon.setAttribute("src", "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/icons/damage.png");
+        }
+        heroBasics.append(roleIcon)
         this.presentModal();
         //set up modal structure with fetched information
     }
