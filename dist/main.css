@@ -430,10 +430,21 @@ body{
     background-image: url(https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/background.png);
     background-size: 100% 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family:'Bebas Neue', cursive;
 }
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgba(	254, 244, 240, 1);
+    margin-bottom: 100px;
+}
+
 
 .grid-head{
     display:flex;
@@ -458,6 +469,15 @@ h1{
     margin: auto;
     margin-top: 130px;
 }
+
+.instructions{
+    color:rgba(	254, 244, 240, 1);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 0.5px #28354F;
+}
+
 /* grid view */
 #hero-grid{
     display: flex;
