@@ -66,6 +66,7 @@ class HeroModal {
         </div>
         `;
         modalElement.innerHTML = html;
+
         const ul = document.querySelector(".hero-abilities")
         while (ul.firstChild) ul.removeChild(ul.lastChild);
         //iterate through image files for the hero, append them to the modal-body
