@@ -59,6 +59,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .instructions{
@@ -164,7 +165,8 @@ button:focus{
 /* modal things */
 .modal{  
     transform: scale(0);
-    position: fixed;
+    position: absolute;
+    top:0;
     z-index: 2;
     max-width: 900px;    
     height: 100%;
