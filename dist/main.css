@@ -445,6 +445,17 @@ footer{
 
 }
 
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer div img{
+    width: 50px;
+    height: 50px;
+}
+
 .grid-head{
     display:flex;
     justify-content: space-between;
@@ -677,6 +688,8 @@ background-color: rgb(158, 154, 154);
 outline: 1px solid rgb(54, 60, 66);
 border-radius: 5px;
 }
+
+
   
 
 
