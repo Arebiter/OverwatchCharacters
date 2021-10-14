@@ -664,6 +664,21 @@ button:focus{
 }
 
 
+.modal::-webkit-scrollbar {
+    width: 5px;
+  }
+   
+.modal::-webkit-scrollbar-track {
+box-shadow: inset 0 0 6px rgb(39, 51, 75);
+}
+
+.modal::-webkit-scrollbar-thumb {
+background-color: rgb(158, 154, 154);
+outline: 1px solid rgb(54, 60, 66);
+border-radius: 5px;
+}
+  
+
 
 
 
