@@ -1016,7 +1016,7 @@ class GetImages {
                         "id": 4,
                         "name": "Photon Barrier",
                         "image": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/symmetra/Photon_Barrier.png",
-                        "description": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/abilities/symmetra/Photon_Barrier.png"
+                        "description": "Symmetra deploys a massive energy barrier which prevents ranged attacks and is big enough to cut through the entire map."
                     }
 
                 ],

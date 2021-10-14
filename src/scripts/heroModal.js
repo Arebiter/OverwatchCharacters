@@ -31,37 +31,44 @@ class HeroModal {
         const modalElement = document.querySelector(".modal")
         let html = `
         <div class="modal-header">
-            <div class="title">${hero.name}</div>
-            <button class="modal-close-btn">&times;</button>
+            <div class="hero-title">
+                <div class="basic-info-div">
+                    <div class="hero-basic-info-name">${hero.name}</div>
+                    <div class="hero-basic-info-role">${hero.role}</div>
+                </div>
+            </div>
+            <button class="modal-close-btn">CLOSE</button>
         </div>
         <div class="modal-body">
-            <div class="body-left">
-                <div class="hero-top">
-                    <div class="hero-profile-img"><img src="${heroObj.portraits.icon}"></div>
-                    <div class="hero-basics">
-                        <div class="hero-basic-info">NAME: ${hero.name}</div>
-                        <div class="hero-basic-info">ROLE: ${hero.role}</div>
+            <div class="full-img">
+                <img class="hero-full" src="${heroObj.portraits.full}">
+            </div>
+            <div class="all-hero-basics">
+                <div class="basic-bio">
+                    <div class="hero-top">
+                        <div class="hero-image-section">
+                            <div class="hero-profile-img"><img src="${heroObj.portraits.icon}"></div>
+                        </div>
+                        <div class="hero-bio">
+                            <div class="hero-bio-info">NAME: ${hero.name}</div>
+                            <div class="hero-bio-info">AGE: ${hero.story.biography.age}</div>
+                            <div class="hero-bio-info">OCCUPATION: ${hero.story.biography.occupation}</div>
+                            <div class="hero-bio-info">BASE: ${hero.story.biography.baseOfOperations}</div>
+                            <div class="affiliations">AFFILIATION: ${hero.story.biography.affiliation}</div>
+                        </div>
                     </div>
-                    <div class="hero-bio">
-                        <div class="hero-bio-info">AGE: ${hero.story.biography.age}</div>
-                        <div class="hero-bio-info">OCCUPATION: ${hero.story.biography.occupation}</div>
-                        <div class="hero-bio-info">BASE: ${hero.story.biography.baseOfOperations}</div>
-                        <div class="affiliations">AFFILIATION: ${hero.story.biography.affiliation}</div>
-                    </div>
+                    <div class="hero-catchphrase">"${hero.story.catchPhrase}"</div>
                 </div>
-                <div class="hero-catchphrase">${hero.story.catchPhrase}</div>
+            </div>
+            <div class="backstory-section">
+                <p>BIO<p>
                 <div class="backstory">${hero.story.backStory}</div>
-                <br>
-                <div>ABILITIES</div>
+            </div>
+            <div class="abilties-section">
+                <div class="label">ABILITIES</div>
                 <ul class="hero-abilities">
 
                 </ul>
-            </div>
-            <div class="body-right">
-                <div class="hero-difficulty">
-                    <div class="difficulty">DIFFICULTY: ${hero.difficulty}</div>
-                </div>
-                <img class="hero-full" src="${heroObj.portraits.full}">
             </div>
         </div>
         `;
@@ -85,19 +92,22 @@ class HeroModal {
             description.setAttribute("class", "hero-ability-description");
             description.innerText = `${heroObj.abilities[i].description}`;
 
+
+            const abilityImgDiv = document.createElement("div");
+            abilityImgDiv.setAttribute("class", "hero-ability-img-div");
+
             const abilityIcon = document.createElement("img");
             abilityIcon.setAttribute("class", "ability-img");
             abilityIcon.setAttribute("src", `${heroObj.abilities[i].image}`);
 
+            abilityImgDiv.append(abilityIcon)
             abilityDiv.append(name, description)
-            li.append(abilityIcon, abilityDiv);
+            li.append(abilityImgDiv, abilityDiv);
             ul.append(li);
         }
 
-        const bodyleft = document.querySelector(".body-left")
-        bodyleft.append(ul);
-
-        const heroBasics = document.querySelector(".hero-basics")
+        const allHeroBasics = document.querySelector(".all-hero-basics")
+        console.log(allHeroBasics);
         const roleIcon = document.createElement("img");
         roleIcon.setAttribute("class", "role-icon");
         console.log(hero.role);
@@ -108,7 +118,8 @@ class HeroModal {
         } else {
             roleIcon.setAttribute("src", "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/icons/damage.png");
         }
-        heroBasics.append(roleIcon)
+        allHeroBasics.append(roleIcon);
+
         this.presentModal();
         //set up modal structure with fetched information
     }
