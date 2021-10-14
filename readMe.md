@@ -1,4 +1,4 @@
-Overview
+OVERVIEW
 _______________________
 Recommended to open in Google Chrome
 
@@ -7,12 +7,12 @@ Organizes the characters in a list or grid view - alphabetically or by difficult
 Click on a character to find out more about them and their abilities. 
 
 
-Functionality
+FUNCTIONALITY
 ______________________
 The user will be able to click on a character card - this page will have the ability to sort through the characters alphabetically or by roles
 - this will let them view the character's biographical information and a list of abilities the character is able to use
 
-WireFrames / Renders 
+WIREFRAMES / RENDERS
 _______________________
 -Main page: ![main](https://user-images.githubusercontent.com/48140022/136584369-fcc0e72f-b6e0-40be-a194-c14c71f52220.PNG)
  - each image here will be a clickable element that will open a modal with the character information
@@ -24,7 +24,7 @@ _______________________
  - character's bio is shown as well as all of their abilities
  - hovering on an ability will pop it up slightly 
 
-Technologies 
+TECHNOLOGIES
 ________________
  - webpack to bundle the JS
  - CSS to style the page itself
@@ -32,7 +32,7 @@ ________________
  - The Overwatch API to get all the needed character information
  - HTML to create the basic layout of the page and the character information
 
-Timeline
+TIMELINES
 __________________
  - Friday/Weekend 
     - set up project and figure out how to get the information from the api. Also figure out how to get images/icons into the project - they are likely not included in the API
@@ -54,7 +54,7 @@ __________________
 - Thusday
     - make final changes to the CSS
 
-Next Steps
+NEXT STEPS
 _______________________________
 - build out the API - include more information about abilities, character health, character skins
 - enable media queries in CSS to make the page more responsive
