@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", getHeroList()
         console.log("something went wrong");
         console.log(error);
     })
-
-    // const heroGrid = document.querySelector("#hero-grid");
-    // const ana = document.querySelector("#ana");
-    // console.log();
-    // new HeroModal(heroGrid);
 );
 
 async function getHeroList() {

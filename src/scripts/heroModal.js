@@ -107,10 +107,8 @@ class HeroModal {
         }
 
         const allHeroBasics = document.querySelector(".all-hero-basics")
-        console.log(allHeroBasics);
         const roleIcon = document.createElement("img");
         roleIcon.setAttribute("class", "role-icon");
-        console.log(hero.role);
         if (hero.role === "Support") {
             roleIcon.setAttribute("src", "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/icons/flip-support-large.png");
         } else if (hero.role === "Tank") {
