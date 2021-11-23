@@ -434,6 +434,7 @@ body{
 .body-container{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 5%;
 }
 
 
@@ -547,13 +548,12 @@ h1{
 }
 
 input[name="sort"]{
-    display:none;
+    /* display:none; */
     background: #3294DB;
     border: 3px solid #3294DB;
     color: #e3e2e7;
     padding: 3px 10%;
-    padding-top: 5px;
-    
+    padding-top: 5px;    
 }
 
 #alphabet{
