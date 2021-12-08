@@ -1,0 +1,26 @@
+// $colors: (
+// //   #feda3e,
+// //   #cc6698,
+// //   #0869ad,
+// //   #ff8300,
+// //   #7A86b8,
+// //   #f05133,
+// //   #2aa9e0,
+// //   #71bf45,
+// //   #ef0e39,
+// //   #9e79d7,
+//   #8e5dad
+
+// );
+// $color: nth($colors, random(length($colors)));
+
+// html {
+//   background: radial-gradient(ellipse at center, $color 0%, darken($color, 50%) 100%);
+//   overflow: hidden;
+// } 
+
+// #bg svg{
+//     position:absolute;
+//     top: 0;
+//     z-index: -1;
+// }

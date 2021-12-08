@@ -4,6 +4,7 @@ body{
     background-image: url(https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/background.png);
     background-size:cover;
     font-family:'Bebas Neue', cursive;
+    z-index: 0;
 }
 .body-container{
     display: flex;
