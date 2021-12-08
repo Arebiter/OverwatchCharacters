@@ -118,17 +118,42 @@ h1{
     margin: auto 10px;
 }
 .org-button{
-    margin-right: 10px;
+    /* padding-right: 10px; */
+    position: relative;
+    
 }
 
-input[name="sort"]{
+input[type="radio"]{
+    opacity: 0;
+    position: absolute;
+    display: block;
+
+}
+
+input[type="radio"]:checked+.org-word, .Checked+.org-word{
+    background-color: #e3e2e7;
+    color: #3294DB; 
+}
+
+.org-word{
     /* display:none; */
     background: #3294DB;
     border: 3px solid #3294DB;
     color: #e3e2e7;
-    padding: 3px 10%;
-    padding-top: 5px;    
+    padding: 3px 10px;
+    /* border-radius: 3px; */
+    padding-top: 5px;  
+    cursor: pointer;  
+    transition: all 0.05s ease-in-out;
 }
+
+/* .first{
+    border-right: 3px solid transparent;
+}
+
+.second{
+    border-left: 3px solid transparent;
+} */
 
 #alphabet{
     border-radius: 3px 0 0 3px;
@@ -137,15 +162,15 @@ input[name="sort"]{
     border-radius: 0 3px 3px 0;
 }
 
-input[name="sort"]:hover{
+.org-word:hover{
     background-color: #e3e2e7;
     color: #3294DB; 
 }
 
-input[name="sort"]:focus{
+/* .org-word:focus{
     background-color: #e3e2e7;
     color: #3294DB; 
-}
+}  */
 
 .role{
     background-color: #a5a4a8;

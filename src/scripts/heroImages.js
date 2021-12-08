@@ -517,7 +517,7 @@ class GetImages {
                     "full": "https://raw.githubusercontent.com/Arebiter/OverwatchCharacters/main/src/assets/portraits/lucio/809.png"
                 }
             },
-            "mccree": {
+            "cassidy": {
                 abilities: [
                     {
                         "id": 1,

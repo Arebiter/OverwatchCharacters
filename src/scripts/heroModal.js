@@ -23,6 +23,7 @@ class HeroModal {
     async fetchHeroInfo(id) {
         const response = await fetch(`https://overwatch-api.tekrop.fr/hero/${id}`);
         const heroInfoObject = await response.json();
+        // console.log(heroInfoObject);
         const heroImages = new GetImages().imagesArray;
         this.fillModal(heroInfoObject, heroImages[id]);
     }
