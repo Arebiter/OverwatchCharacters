@@ -1,5 +1,9 @@
 # Overwatch Hero Database
 
+<p align="center">
+  <img width="854" height="480" src="https://user-images.githubusercontent.com/48140022/145725827-504a75aa-a746-4c4e-9f1b-4c9728170fd4.gif">
+</p>
+
 Recommended to open in Google Chrome
 
 [Live Link](https://arebiter.github.io/OverwatchCharacters/)
