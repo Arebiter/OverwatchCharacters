@@ -25,6 +25,32 @@ Clicking on a character card shows biographical and gameplay data about them.
  - each image is clickable element that opens a modal with the character information
  - the character cards mimic the hover behavior of the cards in the game's hero gallery
  - the 2 buttons on the top right of the page let the user order the characters by name or role
+ ```javascript
+    sortHeroes(heroArray) {
+        const buttons = document.getElementById("organize")
+        buttons.addEventListener("click", event => {
+            let sortedArray = heroArray.sort(function (a, b) {
+                let heroA = undefined;
+                let heroB = undefined
+                if (event.target.id === "alphabet") {
+                    heroA = a.name.toUpperCase();
+                    heroB = b.name.toUpperCase();
+                } else if ((event.target.id === "role")) {
+                    heroA = a.role.toUpperCase();
+                    heroB = b.role.toUpperCase();
+                };
+                if (heroA < heroB) {
+                    return -1;
+                } else if (heroA === heroB) {
+                    return 0;
+                } else {
+                    return 1;
+                }
+            });
+            return this.setupMainPage(sortedArray);
+        })
+    }
+  ```
 
 ### Character page: 
 #### ![hero_modal](https://user-images.githubusercontent.com/48140022/145428660-714e03e3-d8fe-400c-9458-e9c58912557d.png)
