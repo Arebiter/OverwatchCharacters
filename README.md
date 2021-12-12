@@ -1,44 +1,41 @@
-# OVERVIEW
+# Overwatch Hero Database
 
 Recommended to open in Google Chrome
 
 [Live Link](https://arebiter.github.io/OverwatchCharacters/)
 
-This app presents you with a list of all playable characters in Overwatch. The heroes can be organized alphabetically or by role.
+This app presents you with a list of all playable characters in Overwatch, organized alphabetically or by role.
 Clicking on a character card shows biographical and gameplay data about them. 
 
 
 ## FUNCTIONALITY
 
-Clicking on a character card will bring up a modal showing the character's biographical information as well as their in-game abilities. 
-The user is also able to sort the heroes alphabetically or by role.
+ - Clicking on a character card will bring up a modal showing the character's biographical information as well as their in-game abilities. 
+ - The user is also able to sort the heroes alphabetically or by role.
 
 ## WIREFRAMES / RENDERS
 
 ### Main page: 
+#### ![final page](https://user-images.githubusercontent.com/48140022/145428240-1a2d5459-b0de-4c99-9c74-c28f03860e40.png)
 
-#### wireframe: ![main](https://user-images.githubusercontent.com/48140022/136584369-fcc0e72f-b6e0-40be-a194-c14c71f52220.PNG)
-#### final: ![final page](https://user-images.githubusercontent.com/48140022/145428240-1a2d5459-b0de-4c99-9c74-c28f03860e40.png)
-
- - each image here will be a clickable element that will open a modal with the character information
- - there will be css when hovering over the elements which will make them pop up towards the user
- - 2 buttons on the top right of the page will let the user order the characters by name or role
+ - each image is clickable element that opens a modal with the character information
+ - the character cards mimic the hover behavior of the cards in the game's hero gallery
+ - the 2 buttons on the top right of the page let the user order the characters by name or role
 
 ### Character page: 
-#### wireframe: ![hero](https://user-images.githubusercontent.com/48140022/136585467-0cbca98e-497c-412f-877e-bab0b89f3c94.PNG)
-#### final: ![hero_modal](https://user-images.githubusercontent.com/48140022/145428660-714e03e3-d8fe-400c-9458-e9c58912557d.png)
+#### ![hero_modal](https://user-images.githubusercontent.com/48140022/145428660-714e03e3-d8fe-400c-9458-e9c58912557d.png)
 
- - this is the modal that will open when a character is selected
+ - modal opens when a character is selected
  - character's bio is shown as well as all of their abilities
- - hovering on an ability will pop it up slightly 
+ - hovering on an ability will highlight it 
 
 ## TECHNOLOGIES
 
- - webpack to bundle the JS
- - CSS to style the page itself
- - JS to get the information from the Overwatch API
- - The Overwatch API to get all the needed character information
- - HTML to create the basic layout of the page and the character information
+ - webpack
+ - HTML
+ - CSS/SCSS
+ - Vanilla JavaScript
+ - Overwatch API
 
 ## TIMELINES
 
